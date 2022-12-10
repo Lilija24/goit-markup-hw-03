@@ -87,7 +87,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    outline: 1px solid #EEE;
+    
 }
 
 .logo {
@@ -437,6 +437,7 @@ ul{
     background-color: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
+    border-top: 1px solid #EEE;
 }
 
 .project-set{
