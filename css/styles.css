@@ -107,8 +107,7 @@ body {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        padding-top: 60px;
-        
+        padding-top: 60px;  
 }
 
 /*Site nav*/
@@ -177,7 +176,6 @@ margin-right: 0px;
 
 .hero{
     background-color: #2F303A;
-    
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -185,7 +183,6 @@ margin-right: 0px;
 
 .hero-title {
     color: var(--bgd-white-color);
-    
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -234,7 +231,6 @@ margin-right: 0px;
 
 .section-one{
     padding-top: 94px;
-    
 }
 
 .visually-hidden {
@@ -264,7 +260,6 @@ margin-right: 0px;
     letter-spacing: 0.03em;
     /*margin-top: 94px;*/
     /*padding-top: 94px;*/
-    
 }
 
 .feature-list .title-features {
@@ -289,7 +284,6 @@ margin-right: 30px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-   
 }
 
 .text-p {
@@ -301,7 +295,6 @@ margin-right: 30px;
     color: var(--primary-text-color);
     margin-top: 10px;
     width: 270px;
-    
 }
 
 /*Section 2*/
@@ -466,8 +459,11 @@ ul{
     margin-top: 30px;
     outline: 1px solid #EEE;
     flex-basis: calc((100% / 3) - var(--project-set-gap));
-}
 
+}
+.project-set .item-proj:first-child{
+    margin-left: 0px;
+}
 /*CARD*/
 .work-images{
 display: flex;
